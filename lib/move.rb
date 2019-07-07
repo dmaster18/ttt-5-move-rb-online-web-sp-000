@@ -14,5 +14,5 @@ end
 player_character = "X"
 
 def move(board, index, player_character)
-  board[board_space] = player_character
+  board[index] = player_character
 end
