@@ -8,7 +8,6 @@ end
 
 # code your input_to_index and move method here!
 board_index = 0
-input = gets.strip
 def input_to_index(my_input)
   board_index = my_input.to_i -1 
 end
