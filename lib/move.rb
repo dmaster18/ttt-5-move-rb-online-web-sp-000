@@ -10,7 +10,7 @@ end
 board_index = 0
 input = gets.strip
 def input_to_index(my_input)
-  board_index = input.to_i -1 
+  board_index = my_input.to_i -1 
 end
 
 player_character = "X"
