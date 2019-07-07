@@ -9,7 +9,7 @@ end
 # code your input_to_index and move method here!
 board_index = 0
 def input_to_index(input = gets)
-  board_index = input.to_i
+  board_index = input.to_i -1 
 end
 
 player_character = "X"
