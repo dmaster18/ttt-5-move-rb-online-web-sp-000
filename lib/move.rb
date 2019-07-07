@@ -7,8 +7,8 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index(my_input)
-  board_index = my_input.to_i
+def input_to_index(myinput)
+  board_index = myinput.to_i
 end
 
 player_character = "X"
