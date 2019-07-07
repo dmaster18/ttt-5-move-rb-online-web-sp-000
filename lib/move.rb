@@ -10,6 +10,7 @@ end
 
 def input_to_index(input)
   board_index = input.to_i - 1
+  return board_index
 end
 
 
