@@ -4,7 +4,7 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 board_index = 0
-
+player_character = "X"
 puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
